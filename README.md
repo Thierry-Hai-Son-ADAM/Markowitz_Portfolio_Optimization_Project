@@ -4,12 +4,11 @@ This project is a Google Colab notebook that performs a comprehensive portfolio 
 
 ## 📁 Repository Structure
 
-
+```bash
 ├── Portfolio Project.ipynb       # Main Colab notebook
-
 ├── AMUNDI ACTIONS EURO Performances 2024.xlsx  # Excel file with AMUNDI & MSCI data
-
 └── README.md                    # Project overview and instructions
+```
 
 ## 🛠️ Requirements
 
@@ -30,16 +29,18 @@ This project is a Google Colab notebook that performs a comprehensive portfolio 
 
 You can install the required libraries via:
 
-
+```bash
 pip install pandas pandas_datareader statsmodels numpy matplotlib seaborn scipy yfinance python-dateutil
+```
 
 ## 🚀 Usage
 
 1. **Clone the repository** to your local machine or open directly in Google Colab:
 
-git clone [https://github.com/](https://github.com/)<your-username>/portfolio-optimization.git
-cd portfolio-optimization
-
+   ```bash
+   git clone [https://github.com/](https://github.com/)<your-username>/portfolio-optimization.git
+   cd portfolio-optimization
+   ```
    Or, in Google Colab: **File > Open notebook > GitHub >** paste repository URL.
 
 2. **Upload the Excel file**  
@@ -80,3 +81,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 *Happy investing and data analysis!*
+
+```
